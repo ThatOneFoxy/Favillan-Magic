@@ -1,2 +1,3 @@
 # Fowantan-Magic
-addon for SpaceTech based on Thaumcraft
+Magic mod made by a beginner coder
+Compatiblity will be made for SpaceTech and possible more to come
