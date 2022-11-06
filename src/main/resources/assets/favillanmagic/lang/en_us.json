@@ -1,7 +1,12 @@
 {
-  "item.favillanmagic.": "",
-  "item.favillanmagic.": "",
-  "item.favillanmagic.": "",
+  "item.favillanmagic.inanis_crystal": "Inanis Crystallis",
+  "item.favillanmagic.aer_crystal": "Aer Crystallis",
+  "item.favillanmagic.ignis_crystal": "Ignis Crystallis",
+  "item.favillanmagic.aqua_crystal": "Aqua Crystallis",
+  "item.favillanmagic.terra_crystal": "Terra Crystallis",
+
+  "item.favillanmagic.motus_crystal": "Motus Crystallis",
+
   "item.favillanmagic.elysium_pickaxe": "Elysium Pickaxe",
 
   "item.favillanmagic.": "",

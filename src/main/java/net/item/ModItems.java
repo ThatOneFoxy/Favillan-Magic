@@ -18,24 +18,24 @@ public class ModItems {
     //ore stuff
 
     //base crystals
-    public static final RegistryObject<Item> AIR_CRYSTAL = Items.register("Aer_crystal",
+    public static final RegistryObject<Item> AIR_CRYSTAL = Items.register("aer_crystal",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
-    public static final RegistryObject<Item> WATER_CRYSTAL = Items.register("Aqua_crystal",
+    public static final RegistryObject<Item> WATER_CRYSTAL = Items.register("aqua_crystal",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
-    public static final RegistryObject<Item> EARTH_CRYSTAL = Items.register("Terra_crystal",
+    public static final RegistryObject<Item> EARTH_CRYSTAL = Items.register("terra_crystal",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
-    public static final RegistryObject<Item> FIRE_CRYSTAL = Items.register("Ignis_crystal",
+    public static final RegistryObject<Item> FIRE_CRYSTAL = Items.register("ignis_crystal",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
-    public static final RegistryObject<Item> VOID_CRYSTAL = Items.register("Inanis_crystal",
+    public static final RegistryObject<Item> VOID_CRYSTAL = Items.register("inanis_crystal",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
     //result of mix
 
-    public static final RegistryObject<Item> MOTION_CRYSTAL = Items.register("Motion_rename_crystal",
+    public static final RegistryObject<Item> MOTION_CRYSTAL = Items.register("motus_crystal",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
 //items
