@@ -1,6 +1,11 @@
 package net.thatdevfoxy.favillanmagic;
 
 import com.mojang.logging.LogUtils;
+import net.block.ModBlocks;
+import net.item.ModCreativeModeTab;
+import net.item.ModItems;
+import net.item.ModTiers;
+import net.item.custom.VoidPickaxeItem;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +23,8 @@ public class FavillanMagic {
     public FavillanMagic() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
