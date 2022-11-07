@@ -56,8 +56,9 @@ public class ModItems {
                     //new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC).craftRemainder(net.minecraft.world.item.Items.BUCKET).stacksTo(1)));
 
     //tools / weapons
-    //public static final RegistryObject<Item> PICKAXE_OF_VOID = Items.register("pickaxe_of_the_void",
-            //()-> new VoidPickaxeItem(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC).stacksTo(1)));
+    public static final RegistryObject<Item> PICKAXE_OF_VOID = Items.register("void_pickaxe",
+            ()-> new VoidPickaxeItem(ModTiers.Elysium, 4,4,
+                    new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC).stacksTo(1)));
 
 
 
