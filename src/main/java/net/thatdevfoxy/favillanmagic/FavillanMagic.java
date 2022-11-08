@@ -2,10 +2,7 @@ package net.thatdevfoxy.favillanmagic;
 
 import com.mojang.logging.LogUtils;
 import net.block.ModBlocks;
-import net.item.ModCreativeModeTab;
 import net.item.ModItems;
-import net.item.ModTiers;
-import net.item.custom.VoidPickaxeItem;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,7 +15,7 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(FavillanMagic.MOD_ID)
 public class FavillanMagic {
-    public static final String MOD_ID = "favillanmagic";
+    public static final String MOD_ID = "data/favillanmagic";
     private static final Logger LOGGER = LogUtils.getLogger();
     public FavillanMagic() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

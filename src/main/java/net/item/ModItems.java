@@ -39,6 +39,8 @@ public class ModItems {
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
 
 //items
+public static final RegistryObject<Item> GUIDE_BOOK = Items.register("guide_book",
+        ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
   //custom
 
 

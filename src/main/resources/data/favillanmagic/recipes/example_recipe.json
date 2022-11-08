@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experiene": 0.7,
+  "group": "",
+  "ingredient": {
+    "item": "favillanmagic:item"
+  },
+  "result": "favillanmagic:resultitem"
+}

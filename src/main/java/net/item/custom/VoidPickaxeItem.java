@@ -22,24 +22,22 @@ public class VoidPickaxeItem extends PickaxeItem {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        if(Screen.hasShiftDown()) {
-            components.add(Component.translatable("Duplicates ores from the void.").withStyle(ChatFormatting.DARK_AQUA));
-        } else {
-            components.add(Component.translatable("Press SHIFT for more info").withStyle(ChatFormatting.YELLOW));
-        }
+        components.add(Component.translatable("Duplicates ores from the void.").withStyle(ChatFormatting.DARK_AQUA));
         super.appendHoverText(stack, level, components, flag);
     }
 
     @Override
     public boolean mineBlock(ItemStack itemStack, Level level, BlockState blockState, BlockPos blockPos, LivingEntity plivingEntity41002_) {
+
         return super.mineBlock(itemStack, level, blockState, blockPos, plivingEntity41002_);
     }
 
-// make it, so it can void a 3x3x3 with the void, then remove durability, add a cooldown of lets say 30 seconds or something.
+// make it, so it can void a 3x3 with the void, then remove durability, add a cooldown of lets say 3 seconds or something. something like a hammer
     @Override
     public InteractionResult useOn(UseOnContext useOnContext) {
         return super.useOn(useOnContext);
     }
-    //add the ore duplication here, don't know if i will let it stack with fortune (so either doubles ore + drops by fortune or doubles ores * fortune)
+    //add the ore duplication here, don't know if I will let it stack with fortune (so either doubles ore + drops by fortune or doubles ores * fortune)
     //do not allow silktouch on this thing
-}
+
+    }
