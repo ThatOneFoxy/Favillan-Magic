@@ -4,5 +4,7 @@
 
 
 credits; 
-SpaceTech Development,
+* SpaceTech Development,
 letting me use my own code I wrote in SpaceTech for this mod
+* Mojang for making Minecraft
+
