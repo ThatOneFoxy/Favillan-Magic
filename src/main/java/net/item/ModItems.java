@@ -1,12 +1,11 @@
 package net.item;
 
 import net.item.ModCreativeModeTab;
+import net.item.custom.FireStaffItem;
 import net.item.custom.VoidPickaxeItem;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -42,7 +41,8 @@ public class ModItems {
 public static final RegistryObject<Item> GUIDE_BOOK = Items.register("guide_book",
         ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));
   //custom
-
+  public static final RegistryObject<Item> FIRE_STAFF = Items.register("fire_staff",
+          ()-> new FireStaffItem(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC).stacksTo(1)));
 
     public static final RegistryObject<Item> ELYSIUM_GEM = Items.register("elysium",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.FAVILLANMAGIC)));

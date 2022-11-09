@@ -15,7 +15,7 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(FavillanMagic.MOD_ID)
 public class FavillanMagic {
-    public static final String MOD_ID = "data/favillanmagic";
+    public static final String MOD_ID = "favillanmagic";
     private static final Logger LOGGER = LogUtils.getLogger();
     public FavillanMagic() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
